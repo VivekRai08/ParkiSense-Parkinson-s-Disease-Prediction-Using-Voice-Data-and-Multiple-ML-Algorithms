@@ -1,0 +1,2 @@
+# ParkiSense-Parkinson's Disease Prediction Using Voice Data and Multiple ML Algorithms
+This project explores Parkinson’s Disease detection using voice features and machine learning. It compares algorithms like KNN, Naïve Bayes, Logistic Regression, Random Forest, SVM, XGBoost, and Neural Networks, alongside hybrid models (e.g., LR+NB, RF+LR), to identify the most effective approach for early PD detection.
