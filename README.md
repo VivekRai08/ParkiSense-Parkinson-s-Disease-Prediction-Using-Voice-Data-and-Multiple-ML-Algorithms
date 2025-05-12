@@ -1,40 +1,19 @@
-# ParkiSense-Parkinson's Disease Prediction Using Voice Data and Multiple ML Algorithms
-This project explores Parkinson’s Disease detection using voice features and machine learning. It compares algorithms like KNN, Naïve Bayes, Logistic Regression, Random Forest, SVM, XGBoost, and Neural Networks, alongside hybrid models (e.g., LR+NB, RF+LR), to identify the most effective approach for early PD detection.
+# ParkiSense: Parkinson's Disease Prediction Using Voice Data and Multiple ML Algorithms
 
-# 🧠 Parkinson's Disease Detection App
+Welcome to the ParkiSense project! This initiative focuses on the detection of Parkinson’s Disease (PD) through the analysis of voice features using various machine learning algorithms. We compare several models, including K-Nearest Neighbors (KNN), Naïve Bayes, Logistic Regression, Random Forest, Support Vector Machine (SVM), XGBoost, and Neural Networks. Additionally, we explore hybrid models (e.g., Logistic Regression + Naïve Bayes, Random Forest + Logistic Regression) to determine the most effective approach for early PD detection.
 
-This project uses Streamlit and a machine learning model to detect Parkinson's disease based on voice features.
+## 🧠 Parkinson's Disease Detection App
+
+This project features a user-friendly application built with Streamlit, designed to detect Parkinson's disease based on voice features.
 
 ## 🚀 Running the Streamlit App
 
-Follow these steps to set up and run the Streamlit application in a virtual environment.
-Use Terminal in the VS code
----
+To set up and run the Streamlit application in a virtual environment, follow these steps:
 
-### ✅ 1. Create and Activate Virtual Environment
+### 1. Create and Activate Virtual Environment
 
-  python -m venv myenv
-  myenv\Scripts\activate
+Open your terminal in Visual Studio Code and execute the following commands:
 
-2. Activate the Virtual Environment
-   myenv\Scripts\activate
-You should see (myenv) appear in your terminal prompt.
-
-3.Install Required Package (Streamlit)
-  pip install streamlit
-If there are any issues or you want to reinstall Streamlit:
-  pip install --force-reinstall streamlit
-
-4.Verify Streamlit Installation
-  streamlit --version
-
-5.Run the Streamlit App
-Make sure the environment is active:
-  myenv\Scripts\activate
-
-Then run the app using:
-  streamlit run app.py
-
-6.Fix Missing Packages (If Any)
-If you get an error like ModuleNotFoundError, install the missing package using:
-pip install package-name
+```bash
+python -m venv myenv
+myenv\Scripts\activate
