@@ -13,5 +13,28 @@ Use Terminal in the VS code
 
 ### ✅ 1. Create and Activate Virtual Environment
 
-python -m venv myenv
-myenv\Scripts\activate
+  python -m venv myenv
+  myenv\Scripts\activate
+
+2. Activate the Virtual Environment
+   myenv\Scripts\activate
+You should see (myenv) appear in your terminal prompt.
+
+3.Install Required Package (Streamlit)
+  pip install streamlit
+If there are any issues or you want to reinstall Streamlit:
+  pip install --force-reinstall streamlit
+
+4.Verify Streamlit Installation
+  streamlit --version
+
+5.Run the Streamlit App
+Make sure the environment is active:
+  myenv\Scripts\activate
+
+Then run the app using:
+  streamlit run app.py
+
+6.Fix Missing Packages (If Any)
+If you get an error like ModuleNotFoundError, install the missing package using:
+pip install package-name
